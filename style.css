@@ -1,12 +1,88 @@
 *{
     margin: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .header{
-    background-color: #1e2022;
+    background-color: black;
     color: white;
     font-family: "Audiowide",sans-serif;
     font-size: 24px;
     padding: 16px;
     display: flex;
     justify-content: center;
+}
+
+.gameWindow{
+    background-color: #393e46;
+    color: white;
+}
+
+.score{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Audiowide', sans-serif;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.scores-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.score-box{
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign{
+    font-size: 80px;
+}
+
+.playerSelection{
+    background-color: #f2f2f2;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btnsquare{
+    background-color: white;
+    height: 160px;
+    width: 160px;
+    font-size: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.btnsquare:hover{
+    background-color: black;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
 }
